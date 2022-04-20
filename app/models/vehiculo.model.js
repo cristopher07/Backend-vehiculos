@@ -16,12 +16,12 @@ module.exports = (sequelize, Sequelize) => {
       },
       color: {
         type: Sequelize.STRING
-      }
+      },
+   
 
     });
 
-    vehiculos.removeAttribute('createdAt');
-    vehiculos.removeAttribute('updatedAt');
+
 
     return vehiculos;
   };
